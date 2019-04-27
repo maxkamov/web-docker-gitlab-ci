@@ -1,7 +1,7 @@
 {
     "name": "jakharbek/web-docker-gitlab-ci",
     "description": "Docker for Web and Gitlab CI",
-    "type": "library",
+    "type": "project",
     "license": "MIT",
     "authors": [
         {
