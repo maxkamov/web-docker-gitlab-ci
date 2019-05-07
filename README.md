@@ -10,16 +10,8 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require --prefer-dist jakharbek/web-docker-gitlab-ci "*"
+composer create-project jakharbek/web-docker-gitlab-ci
 ```
-
-or add
-
-```
-"jakharbek/web-docker-gitlab-ci": "*"
-```
-
-to the require section of your `composer.json` file.
 
 
 Docker
