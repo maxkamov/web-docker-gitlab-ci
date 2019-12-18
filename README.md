@@ -29,3 +29,11 @@ Gitlab CI
 -----
 
 Для работы с Gitlab CI вам нужно заполнить все переменные среды в гитлаб. Пример в файле .env.gitlab.example
+
+PHP CS
+-----
+По умолчанию указано на /application
+
+```
+php-cs-fixer fix --config .php_cs
+```

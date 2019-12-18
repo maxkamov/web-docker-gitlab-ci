@@ -25,7 +25,7 @@ RUN apt-get update && \
             libpng-dev \
             libxml2-dev \
             zlib1g-dev \
-            mysql-client \
+            mariadb-client \
             postgresql-server-dev-all \
             openssh-client \
             nano \
@@ -48,6 +48,7 @@ RUN docker-php-ext-install \
 
 # xdebug
 RUN pecl install xdebug && docker-php-ext-enable xdebug
+RUN wget https://cs.symfony.com/download/php-cs-fixer-v2.phar -O /bin/php-cs-fixer
 
 #composer
 ENV COMPOSER_HOME /composer
